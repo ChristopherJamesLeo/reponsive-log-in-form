@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container a-container" id="a-container">
+            <form action="" class="form" id="a-form">
+                <h2 class="form_title title">Create Account</h2>
+                <div class="font-icons"><i class="fab fa-facebook-f"></i><i class="fab fa-instagram-square"></i> <i class="fab fa-twitter"></i></div><span>or use email for registration</span>
+                <input type="text" name="" id="" class="form_input" placeholder="Name">
+                <input type="text" name="" id="" class="form_input" placeholder="email">
+                <input type="password" name="" id="" class="form_input" placeholder="password">
+                <button class="form_button button submit">SIGN UP</button>
+            </form>
+        </div>
+        <div class="container b-container" id="b-container">
+            <form action="" class="form" id="b-form">
+                <h2 class="form_title title">
+                    Sign in to website
+                </h2>
+                <div class="font-icons"><i class="fab fa-facebook-f"></i><i class="fab fa-instagram-square"></i> <i class="fab fa-twitter"></i></div><span>our use your email account</span>
+                <input type="text" name="" id="" class="form_input" placeholder="Email">
+                <input type="password" name="" id="" class="form_input" placeholder="password">
+                <a href="#" class="form_link">Forget Your Password</a>
+                <button class="form_button button submit">SIGN IN</button>
+            </form>
+        </div>
+        <div class="switch" id="switch-cnt">
+            <div class="switch_circle"></div>
+            <div class="switch_circle switch_circle--t"></div>
+            <div class="switch_container" id="switch-c1">
+                <h2 class="switch_title title">Welcome Back!</h2>
+                <p class="switch_description description">To keep connected with us please login with your personal ingo</p>
+                <button class="switch_button button switch_btn">SIGN IN</button>
+            </div>
+            <div class="switch_container is-hidden" id="switch-c2">
+                <h2 class="switch_title title">Join Us</h2>
+                <p class="switch_description description">Enter your personak details and start journey with us</p>
+                <button class="switch_button button switch_btn">SIGN UP</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
